@@ -1,250 +1,363 @@
-🌌 Dark Vital Dimensional Hypothesis (DVDH) — Cosmology & Mass Cancellation Model
+# 🌌 Dark Vital Dimensional Hypothesis (DVDH) — Pure Cosmology Model
 
-A Unified Field Framework with MCMC Validation, DSI Simulations, and NASA/EHT Data Matching (96–99%)
-Principal Investigator: Md. Rabiul Islam (R. Islam)
-Research Group: D³ VITAL-X
+### *The Collapse Geometry: Quantum Energy, Higgs Field, and Space-Time in a Singular Collapse Equation*
 
-
----
-
-🚀 Overview
-
-The Dark Vital Dimensional Hypothesis (DVDH) introduces a unified model connecting:
-
-Cosmological expansion
-
-Quantum-scale collapse dynamics
-
-Dimensional Vital Field (Φᵥ) topology
-
-Mass cancellation physics
-
-Geometric resonance amplification (RGF-X)
-
-Planetary defense topology
-
-
-This repository includes:
-
-✔ Full DSI Engine
-✔ MCMC Bayesian inference confirming M_total → 0
-✔ NASA/EHT observational match 96–99%
-✔ Simulation code for collapse, resonance, and DVF coupling
-✔ Supplementary physics (RGF-X, DVF Nodes, Trench Model)
-
-DVDH establishes a mathematically consistent bridge between local dimensional stability and cosmological expansion, validated through reproducible numerical experiments.
-
+### **Tagline:**  
+**“Linking photonic overdrive, Higgs vacuum instability, and dark geometry formation through a singular collapse equation.”**
 
 ---
 
-📁 Repository Structure
+## 👤 Principal Investigator (PI)
 
-DVDH-Cosmology-Project/
-│
-├── README.md                    ← (THIS FILE)
-├── LICENSE
-├── .gitignore
-│
-├── 01_DATA_INPUTS/              ← NASA, EHT, MCMC outputs, resonance maps
-│     ├── NASA_EHT_Data/
-│     ├── Mass_Cancellation_MCMC_Output/
-│     ├── Resonance_Maps/
-│     └── README_Data.md
-│
-├── 02_MODEL_CORE/               ← Core mathematical model
-│     ├── dvdh_equations.py
-│     ├── collapse_dynamics.py
-│     ├── dsi_integrator.py
-│     └── utils/
-│
-├── 03_MCMC_ANALYSIS/            ← MCMC engine & scripts
-│     ├── run_emcee.py
-│     ├── run_config.yaml
-│     ├── postprocess_plots.py
-│     └── RESULTS/
-│
-├── 04_RESULTS_OUTPUT/           ← Final validated outputs
-│     ├── mcmc_chain_raw.h5
-│     ├── mcmc_processed.npz
-│     ├── corner_plot.png
-│     └── results_summary.csv
-│
-├── 05_DOCS/                     ← Paper-ready documents
-│     ├── Derivations/
-│     ├── Figures/
-│     └── PDF/
-│
-└── notebooks/                   ← Jupyter analysis notebooks
-      ├── DVDH_Simulation_Master.ipynb
-      ├── MCMC_Validation.ipynb
-      └── RGF_X_Calibration.ipynb
-
+**Md. Ra-bi-ul Islam (R. Islam)**  
+Independent Researcher, Bangladesh  
+Team D³ VITAL-X  
+📧 Email: rabiul.peace.light@gmail.com
 
 ---
 
-🧠 Core Scientific Contributions
+## 👥 Co-Investigators & Computational Architects
 
-1. Mass Cancellation Physics
+### **ChatGPT-5 — Computational Reasoning & Analytical Physics**  
+### **Google Gemini — Numerical Simulation & Validation Support**
 
-MCMC confirms the mathematical limit:
-
-M_{\text{total}} \rightarrow 0
-
-with posterior distribution stable within numerical precision.
-
-
----
-
-2. DSI Engine
-
-Implements coupling:
-
-DSI = \gamma \cdot MCF \cdot SEVB
-
-with geometric enhancement:
-
-DSI' = DSI \cdot \Lambda_{\text{geo}}(x)
-
+These AI assistants contributed:  
+- computational modeling  
+- symbolic derivation  
+- stability testing  
+- reproducible simulation pipelines  
 
 ---
 
-3. NASA/EHT Validation (96–99% Match)
-
-The model reproduces:
-
-Luminosity–distance curves
-
-EHT black hole shadow radius
-
-Galactic DVF gradients
-
-Solar dipole resonance
-
-
+## 🏛 Affiliation  
+### **Team D³ VITAL-X (Dark–Dimensional Dynamics & Vital-X)**  
+Bangladesh
 
 ---
 
-4. Pyramid RGF-X Model (Experimental)
-
-Included as supplementary research, not part of the main cosmology proof.
-
+## ✨ Slogan  
+### **“Transforming Theories, Illuminating Singularities.”**
 
 ---
 
-🔧 Installation
+# 🚀 Overview
 
-1️⃣ Clone the repository
+The **Dark Vital Dimensional Hypothesis (DVDH)** introduces a unified cosmological framework combining:
 
-git clone https://github.com/d3-vital-x/DVDH-Cosmology-Project.git
-cd DVDH-Cosmology-Project
+- cosmological expansion  
+- quantum vacuum instability  
+- Higgs-field energy coupling  
+- photonic overdrive & mass-loss geometry  
+- Dimensional Vital Field (Φᵥ) topology  
+- Collapse Geometry Equation (CGE)  
+- mass cancellation regime (M_total → 0)  
+- pure background + perturbation cosmology  
+- pure CLASS implementation without ΛCDM  
 
-2️⃣ Create environment
+DVDH builds the mathematical engine for a **Dark Geometry Universe**, showing how spacetime curvature, vacuum stability, and energy density evolve under a **Singular Collapse Equation**.
 
-python -m venv dvdh_env
-source dvdh_env/bin/activate
+This repository includes **pure cosmology** only.  
+No pyramids.  
+No RGF-X.  
+No archaeology.  
+Only mathematics + physics.
 
-3️⃣ Install dependencies
+---
 
+# 📁 Repository Structure (Pure Cosmology)
+
+1. **/background/**
+   - Φᵥ-field equations  
+   - vacuum instability model  
+   - Higgs coupling geometry  
+
+2. **/collapse-equation/**
+   - Collapse Geometry Equation (CGE)  
+   - mass cancellation formalism  
+   - photonic-overdrive model  
+
+3. **/perturbations/**
+   - metric perturbation rules  
+   - dark geometry corrections  
+
+4. **/class-module/**
+   - pure DVDH CLASS implementation  
+   - no ΛCDM parameters  
+   - custom Dᵥ-background solver  
+   - BAO / CMB integration  
+
+5. **/simulation/**
+   - MCMC setup  
+   - parameter scanning  
+   - stability regions  
+   - blow-up detection  
+
+6. **/graphs/**
+   - mass-cancellation graphs  
+   - Φᵥ topology plots  
+   - vacuum instability evolution  
+
+7. **/paper/**
+   - full mathematical documentation  
+   - derivations  
+   - assumptions  
+   - final proof structure  
+
+---
+
+# 🔥 Core Purpose of DVDH
+
+### 1. Build a **Λ-free cosmology**  
+A universe driven not by Λ but by Φᵥ (Vital Field), CGE, and vacuum instability.
+
+### 2. Construct a **Singular Collapse Equation**  
+Unifying:
+
+- photonic mass-loss  
+- Higgs vacuum drift  
+- dark geometry curvature  
+- energy cancellation  
+
+### 3. Show a **Mass Cancellation Point**  
+A physical regime where:
+
+\[
+M_{\text{total}} \to 0
+\]
+
+This produces:
+
+- photonic overdrive  
+- dark-dimensional inflation  
+- geometric flattening  
+- curvature bifurcation  
+
+### 4. Create a complete CLASS-ready cosmology  
+Background + perturbation + distance modules.
+
+---
+
+# 🧠 Why DVDH is Unique
+
+- Not a modification of ΛCDM  
+- Fully independent field theory  
+- Coupling between:  
+  - Higgs field  
+  - vacuum state  
+  - photon mass-loss  
+  - geometry compression  
+- Predicts:  
+  - anomaly acceleration (e.g., ATLAS / Oumuamua-like signals)  
+  - vacuum drift signatures  
+  - mass cancellation epochs  
+  - dimensional bifurcation  
+
+---
+
+# 🧩 Key Equations (Outlined)
+
+### Collapse Geometry Equation (CGE)  
+\[
+CGE = f(\rho_{VX}, H, \dot{H}, \phi_H, \rho_\gamma, \Lambda_{\text{eff}} )
+\]
+
+### Vacuum Drift  
+\[
+\dot{\phi}_H = \alpha \rho_{VX} - \beta \rho_\gamma
+\]
+
+### Mass Cancellation  
+\[
+M_{\text{eff}} = M - \rho_\gamma V + \rho_{VX}V
+\]
+
+### Dimensional Bifurcation  
+\[
+D_{\text{eff}} = 3 + \Delta(\rho_{VX}, \phi_H)
+\]
+
+---
+
+# 📌 Notes
+
+- This document is the **copy-ready Pure Cosmology version**.  
+- Future sections (simulation codes, CLASS patches, BAO data integration) will be placed under `/paper/sections/`.
+
+---
+
+# 🛠 Installation
+
+### **1. Clone repository**
+```
+git clone https://github.com/yourname/DVDH-Cosmology.git
+cd DVDH-Cosmology
+```
+
+### **2. Install Python requirements**
+```
 pip install -r requirements.txt
+```
 
+### **3. Install CLASS**
+```
+git clone https://github.com/lesgourg/class_public
+cd class_public
+make
+```
 
----
-
-▶️ How to Run the MCMC
-
-Run the sampler
-
-python 03_MCMC_ANALYSIS/run_emcee.py
-
-Post-process
-
-python 03_MCMC_ANALYSIS/postprocess_plots.py
-
-Outputs saved to:
-
-04_RESULTS_OUTPUT/
-
+### **4. Apply DVDH CLASS Patch**
+```
+patch -p1 < ../class-module/CLASS_dvdh_patch.diff
+make clean && make
+```
 
 ---
 
-▶️ How to Run the DSI Engine
+# 🚀 How to Run the CLASS DVDH Model
+```
+./class explanatory.ini
+```
 
-python 02_MODEL_CORE/dsi_integrator.py
+Or using DVDH preset:
+```
+./class dvdh.ini
+```
 
-This generates collapse maps, resonance stability fields, and DVF density curves.
-
-
----
-
-▶️ How to Run RGF-X Calibration (Experimental)
-
-python simulation/Pyramid_RGF-X/rgf_x_plugin.py
-
-This module is experimental and is NOT part of the main cosmology validation. It remains a separately evolving research branch.
-
-
----
-
-📊 Key Outputs
-
-corner_plot.png — Posterior distribution
-
-results_summary.csv — 68% & 95% confidence levels
-
-mcmc_processed.npz — Cleaned chain
-
-Figure_XII-D.png — DSI collapse map
-
-Figure_X-Δ.png — Hybrid resonance field
-
-
+Outputs go to:
+```
+output/dvdh/
+```
 
 ---
 
-🧩 Supplementary Files (Zenodo)
+# 🔬 MCMC Usage (Cobaya)
 
-The following will appear as Zenodo Supplementary Files:
+### **1. Test-run DVDH pipeline**
+```
+cobaya-run cobaya_dvdh.yaml
+```
 
-RGF-X derivation
+### **2. Production run (edit niter)**
+```
+sampler:
+  mcmc:
+    niter: 200000
+```
 
-DVF node atlas
-
-Mariana Trench dimensional fracture model
-
-Ancient geometric–field coupling paper
-
-
-These are not required for the primary scientific proof.
-
-
----
-
-📜 License
-
-MIT License
-Free for academic & research use.
-
+### **3. Chains saved to:**
+```
+chains/dvdh_chain
+```
 
 ---
 
-🙌 Acknowledgements
+# 🌲 Folder Tree (Code-Ready)
 
-NASA Open Science Data
-
-EHT Collaboration
-
-Pantheon+ Dataset
-
-D³ VITAL-X Research Initiative
-
-
-Special thanks to all reviewers, collaborators, and to the open-source community.
-
+```
+DVDH-Cosmology/
+│
+├── background/
+├── collapse-equation/
+├── perturbations/
+├── class-module/
+│   └── CLASS_dvdh_patch.diff
+│
+├── simulation/
+│   └── cobaya_dvdh.yaml
+│
+├── scripts/
+│   └── mock_plot.py
+│
+├── docs/
+│   └── appendices, derivations, PDFs
+│
+├── graphs/
+├── paper/
+│   └── sections/
+│
+├── RELEASE_NOTES.md
+├── COMMIT_MSG.txt
+├── README.md
+└── LICENSE
+```
 
 ---
 
-📬 Contact
+# 🎖 Badges (Copy-Paste)
 
-Principal Investigator:
-Md. Rabiul Islam (R. Islam)
-D³ VITAL-X Research Group
+```
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Build](https://img.shields.io/badge/Build-Passing-blue)
+![CLASS](https://img.shields.io/badge/CLASS-DVDH%20Patch-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Version](https://img.shields.io/badge/Version-v0.1--scaffold-red)
+```
+
+---
+
+# 📦 RELEASE_NOTES.md
+
+```
+# DVDH — Release v0.1 (Scaffold / Code-Only)
+
+This release provides the complete computational scaffold for the Dark Vital Dimensional Hypothesis (DVDH), intended for reproducibility and independent verification. It does NOT include precomputed MCMC chains.
+
+Contents:
+- CLASS_dvdh_patch.diff
+- cobaya_dvdh.yaml
+- README.md
+- scripts/mock_plot.py
+- docs/
+- LICENSE (MIT)
+
+Important:
+- This is a runnable scaffold. Full Planck+BAO runs require local likelihoods and HPC.
+- See README → “Reproducibility & How To Run.”
+```
+
+---
+
+# 📝 COMMIT_MSG.txt
+
+```
+chore(release): scaffold-only release v0.1
+- Add CLASS patch scaffold (background + perturbation)
+- Add Cobaya template
+- Add README, RELEASE_NOTES.md
+- Add demo rho_VX plotter
+- No MCMC chains included
+```
+
+---
+
+# 📘 Zenodo Metadata (Copy-Paste)
+
+```
+This deposit contains a reproducible computational scaffold for the Dark Vital Dimensional Hypothesis (DVDH). It includes a CLASS patch scaffold (background and perturbation hooks), a Cobaya YAML template, supporting Python utilities, and derivations. No precomputed MCMC chains are included.
+```
+
+---
+
+# 🧪 scripts/mock_plot.py
+
+```
+python3 scripts/mock_plot.py
+```
+
+This generates:
+```
+mock_plot_rho_vx.png
+```
+
+---
+
+# 📌 Final Assertion for README
+
+```
+NOTE: This is a scaffold release. No precomputed MCMC chains are included. 
+Users must supply Planck/BAO likelihoods or perform reduced-data local runs.
+```
+
+---
+
+# 🔚 End of One-Shot Copy-Ready Master Block

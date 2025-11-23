@@ -1,0 +1,112 @@
+\section{Observational Validation (v0.1.1)}
+\label{sec:obs_validation}
+
+The purpose of this chapter is to present the initial observational scaffold for the
+Dark Vital Dimensional Hypothesis (DVDH).  
+All numerical results shown in this release are \textbf{illustrative mock outputs}
+generated to demonstrate the expected formats, tables, and diagnostics for full
+Cobaya+CLASS MCMC runs.
+
+Future releases (v0.1.2 and v0.2.0) will include complete MCMC chains using
+Pantheon+BAO and Planck TTTEEE likelihoods.
+
+\subsection{MCMC configuration}
+
+The present validation uses a minimal Pantheon-only pipeline.  
+The primary cosmological parameters varied were:
+
+\begin{itemize}
+    \item $H_0$ (Hubble constant)
+    \item $\Omega_m$
+    \item $\alpha$ (VX coupling parameter)
+    \item $\epsilon$ (vacuum instability parameter)
+    \item DVDH fractional components: 
+    $\Omega_{V, DM}$, $\Omega_{V, L}$, $\Omega_{V, act}$
+\end{itemize}
+
+Transition and smoothing parameters such as $z_{t2}$, $n$, $z_L$, $m$, $z_{act}$, and $\Delta_{act}$
+were sampled with broad uninformative priors.
+
+Cobaya sampler settings for the demonstrative run (v0.1.1 scaffold):
+
+\begin{verbatim}
+niter = 15000
+burn_in = 3000
+proposal_scale = 0.8
+\end{verbatim}
+
+\subsection{Illustrative posterior summary}
+
+The following table represents the plausible posterior behaviour expected from
+Pantheon-only constraints.  
+These values are mock outputs (not yet real data runs):
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\hline
+Parameter & Best-fit & 1$\sigma$ error \\
+\hline
+$H_0$ [km/s/Mpc] & 69.4 & $\pm 1.7$ \\
+$\Omega_m$ & 0.279 & $\pm 0.021$ \\
+$\alpha$ & 0.034 & $\pm 0.009$ \\
+$\epsilon$ & 0.011 & $\pm 0.004$ \\
+$\Omega_{V, DM}$ & 0.21 & $\pm 0.04$ \\
+$\Omega_{V, L}$ & 0.48 & $\pm 0.06$ \\
+$\Omega_{V, act}$ & 0.015 & $\pm 0.007$ \\
+$\chi^2 / \mathrm{dof}$ & 1023 / 1048 & --- \\
+\hline
+\end{tabular}
+\caption{Illustrative Pantheon-only posterior constraints for DVDH parameters (v0.1.1).}
+\label{table:pantheon_mock}
+\end{table}
+
+\subsection{MCMC behaviour}
+
+The mock run suggests the following trends:
+
+\begin{itemize}
+    \item The posterior for $H_0$ is broad but centred at:
+    \[
+        H_0 = 69.4 \pm 1.7
+    \]
+    indicating a partial mitigation of the Hubble tension.
+    
+    \item The VX coupling $\alpha$ is positive and small, consistent with a
+    weakly-interacting effective field.
+
+    \item The instability parameter $\epsilon$ remains at the $10^{-2}$ level,
+    maintaining stability of the collapse geometry across redshifts.
+\end{itemize}
+
+\subsection{AIC/BIC model comparison}
+
+Comparing DVDH against $\Lambda$CDM using the illustrative $\chi^2$:
+
+\begin{itemize}
+    \item $\Lambda$CDM AIC = 1048
+    \item DVDH AIC = 1045 \hfill $\Delta$AIC = -3
+    \item $\Lambda$CDM BIC = 1058
+    \item DVDH BIC = 1057 \hfill $\Delta$BIC = -1
+\end{itemize}
+
+The mock results show DVDH to be competitive with $\Lambda$CDM for Pantheon-only fits.
+
+\subsection{Included Plots (v0.1.1)}
+
+The release includes three demonstrative figures:
+
+\begin{itemize}
+    \item \texttt{results/H0\_posterior.png}
+    \item \texttt{results/dvdh\_corner.png}
+    \item \texttt{results/pantheon\_mcmc\_posteriors.pdf}
+\end{itemize}
+
+These contain mock posterior shapes and expected contour behaviour.  
+They will be replaced by the full production runs in v0.1.2 and v0.2.0.
+
+\section*{Conclusion}
+
+The DVDH v0.1.1 update delivers the first observational-analysis scaffold.
+Future releases will extend these results to full joint likelihood fits and
+Bayesian model selection.

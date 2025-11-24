@@ -177,7 +177,12 @@ D_{\text{eff}} = 3 + \Delta(\rho_{VX}, \phi_H)
 \]
 
 ---
+## Related repositories
 
+- **DVDH-DSI-Simulation** — Core microphysics and DSI engine (derivation of cosmological scaling parameters α and ϵ).  
+  Repository: https://github.com/d3-vital-x/DVDH-DSI-Simulation
+
+> Note: The DSI Simulation repo contains the microscopic simulation code (dsi_solver.py, coupling analysis) used to derive the α and ϵ parameters that feed into the DVDH-Cosmology MCMC pipeline. See `02_MODEL_CORE` in the simulation repo for linking scripts and derived parameter tables.
 # 📌 Notes
 
 - This document is the **copy-ready Pure Cosmology version**.  

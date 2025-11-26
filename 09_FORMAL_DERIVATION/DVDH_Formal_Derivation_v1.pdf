@@ -1,1 +1,12 @@
-Placeholder: Real PDF stored offline (mobile upload unavailable).
+# DVDH Formal Derivation (v1.0 Placeholder)
+
+This file serves as a placeholder for the complete 7-chapter Formal Derivation PDF.
+
+The full PDF (which establishes the mathematical foundation of DVDH, its Lagrangian, and stability analysis) is available for download at the main project release page, or will be uploaded later via desktop.
+
+**Key Content (See PDF for full details):**
+1. [span_0](start_span)Tensor Construction of Fields (MCF, SEVB, DSI)[span_0](end_span)
+2. [span_1](start_span)Lagrangian Derivation & Euler-Lagrange Equations[span_1](end_span)
+3. [span_2](start_span)Collapse Criterion $\Theta \ge 1$ from energy conservation[span_2](end_span)
+4. [span_3](start_span)Lyapunov Stability Analysis[span_3](end_span)
+5. [span_4](start_span)Unified DVDH Field Equation[span_4](end_span)

@@ -1,0 +1,192 @@
+\section{Total Stress--Energy Tensor in DVDH Cosmology}
+\label{sec:Tmunu_total}
+
+In the DVDH framework, the full stress--energy tensor contains three principal components:
+
+\[
+T_{\mu\nu}^{\text{total}}
+= T_{\mu\nu}^{(m)} 
++ T_{\mu\nu}^{(\phi)}
++ T_{\mu\nu}^{(\text{DSI})}.
+\]
+
+We now derive each term explicitly.
+
+% ===========================================================
+\subsection{1. Matter Sector: \texorpdfstring{$T_{\mu\nu}^{(m)}$}{Tmumu(m)}}
+
+The matter Lagrangian in the Jordan frame is conformally coupled:
+
+\[
+\mathcal{L}_{m} = A^4(\phi)\, \bar{\mathcal{L}}_m,
+\qquad A(\phi) = e^{\beta\phi/M}.
+\]
+
+Thus:
+
+\[
+T_{\mu\nu}^{(m)} = 
+A^2(\phi)\,\bar{T}_{\mu\nu}^{(m)}.
+\]
+
+Under FLRW reduction:
+
+\[
+\rho_m^{\text{eff}} = A^4(\phi)\,\bar{\rho}_m,
+\qquad
+P_m^{\text{eff}} = A^4(\phi)\,\bar{P}_m.
+\]
+
+This yields the Perfect Fluid form:
+
+\[
+T^{(m)}_{\mu\nu}
+= \rho_m^{\text{eff}} u_\mu u_\nu
++ P_m^{\text{eff}} (g_{\mu\nu}+u_\mu u_\nu).
+\]
+
+% ===========================================================
+\subsection{2. DVF Scalar Field: \texorpdfstring{$T_{\mu\nu}^{(\phi)}$}{Tmunu(phi)}}
+
+The scalar sector Lagrangian is:
+
+\[
+\mathcal{L}_{\phi}
+=
+-\frac{1}{2}(\nabla\phi)^2
+- V_{\rm DVF}(\phi)
+- \xi_R \phi^2 R.
+\]
+
+Variation yields:
+
+\[
+T^{(\phi)}_{\mu\nu}
+= \nabla_\mu \phi \nabla_\nu\phi
+- g_{\mu\nu}\left[
+\frac{1}{2}(\nabla\phi)^2 + V(\phi)
+\right]
++ 2\xi_R\left[
+G_{\mu\nu}\phi^2
+- \nabla_\mu\nabla_\nu(\phi^2)
++ g_{\mu\nu}\Box(\phi^2)
+\right].
+\]
+
+FLRW reduction:
+
+\[
+\rho_\phi = 
+\frac{1}{2}\dot{\phi}^2 + V(\phi)
++ 6\xi_R H\phi\dot{\phi},
+\]
+
+\[
+P_\phi =
+\frac{1}{2}\dot{\phi}^2 - V(\phi)
+- 2\xi_R\left(
+\phi\ddot{\phi} + 2H\phi\dot{\phi}
++ \dot{\phi}^2
+\right).
+\]
+
+Thus:
+
+\[
+T^{(\phi)}_{\mu\nu}
+=
+(\rho_\phi + P_\phi)u_\mu u_\nu
++ P_\phi g_{\mu\nu}.
+\]
+
+% ===========================================================
+\subsection{3. DSI Contribution: \texorpdfstring{$T_{\mu\nu}^{(\text{DSI})}$}{Tmunu(DSI)}}
+
+The Dimensional Stability Instability (DSI) sector contributes:
+
+\[
+\mathcal{L}_{\rm DSI}
+= - f_{\rm inst}(\phi)\, \Psi(D)
+- \epsilon\, (\partial D)^2.
+\]
+
+Variation gives:
+
+\[
+T^{(\text{DSI})}_{\mu\nu}
+= 
+2\epsilon \partial_\mu D \partial_\nu D
+- g_{\mu\nu}
+\left[
+\epsilon(\partial D)^2
++ f_{\rm inst}(\phi)\Psi(D)
+\right].
+\]
+
+Under FLRW (assuming $D=D(t)$):
+
+\[
+\rho_{\text{DSI}}
+= 
+\epsilon\,\dot{D}^2 
++ f_{\rm inst}(\phi)\Psi(D),
+\]
+
+\[
+P_{\text{DSI}}
+= 
+\epsilon\,\dot{D}^2 
+- f_{\rm inst}(\phi)\Psi(D).
+\]
+
+% ===========================================================
+\subsection{4. Full DVDH Effective Fluid}
+
+The total energy density and pressure become:
+
+\[
+\rho_{\rm total}
+= \rho_m^{\text{eff}}
++ \rho_\phi
++ \rho_{\rm DSI},
+\]
+
+\[
+P_{\rm total}
+= P_m^{\text{eff}}
++ P_\phi
++ P_{\rm DSI}.
+\]
+
+The Friedmann equations:
+
+\[
+3H^2 = \kappa^2 \rho_{\rm total},
+\]
+
+\[
+2\dot{H} + 3H^2 = -\kappa^2 P_{\rm total}.
+\]
+
+\subsection{5. DVDH Conservation Equations}
+
+Matter exchanges energy with the scalar via:
+
+\[
+\nabla_\mu T^{\mu(m)}_{\ \ \nu}
+= \alpha_m(\phi)\, T_{(m)} \nabla_\nu \phi,
+\qquad \alpha_m = \beta/M.
+\]
+
+Scalar and DSI sectors obey:
+
+\[
+\dot{\rho}_\phi + 3H(\rho_\phi + P_\phi)
+= -\alpha_m(\phi)\, \rho_m^{\text{eff}} \dot{\phi},
+\]
+
+\[
+\dot{\rho}_{\rm DSI}
++ 3H(\rho_{\rm DSI} + P_{\rm DSI})
+= 0.
+\]

@@ -1,0 +1,124 @@
+\section{PPN Analysis for DVDH}
+\label{sec:ppn_full}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SECTION A: Symbolic PPN Formulation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{A. Symbolic Structure of PPN Expansion}
+
+In the weak-field regime we expand the metric as:
+\[
+g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu}, \qquad |h_{\mu\nu}| \ll 1.
+\]
+
+The Newtonian potential is defined from:
+\[
+g_{00} = -1 + 2\Phi_{\rm eff} + \mathcal{O}(h^2).
+\]
+
+The PPN parameters \(\gamma\) and \(\beta\) measure:
+\begin{itemize}
+    \item curvature of space per unit mass (\(\gamma\))
+    \item nonlinearity in gravitational superposition (\(\beta\))
+\end{itemize}
+
+Symbolic expressions:
+\[
+\gamma = \frac{1 + \alpha_m(\phi_0)^2}{1 - \alpha_G(\phi_0)^2}
+\]
+\[
+\beta = 1 + \frac{1}{2}F(\alpha_G,\alpha_m,V''(\phi_0)).
+\]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SECTION B: Explicit DVDH Parameters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{B. Explicit DVDH Algebraic Form}
+
+\paragraph{1. Effective Couplings at Background Field \(\phi_0\):}
+
+\[
+\alpha_G(\phi_0) = 
+\frac{\xi_R \phi_0/M^2}{1 + \xi_R \phi_0^2/M^2},
+\qquad
+\alpha_m(\phi_0) = \frac{\beta}{M}.
+\]
+
+\paragraph{2. PPN Parameter \(\gamma\):}
+
+\[
+\gamma - 1 \approx 
+2\left(\alpha_G + \alpha_m\right)^2
+\]
+
+Explicit DVDH form:
+\[
+\gamma - 1 \approx 
+2\left(
+\frac{\xi_R \phi_0/M^2}{1 + \xi_R \phi_0^2/M^2}
++
+\frac{\beta}{M}
+\right)^2 .
+\]
+
+\paragraph{3. PPN Parameter \(\beta\):}
+
+\[
+\beta - 1 \approx 
+\frac{\alpha_{\rm eff}^2}{4}
+-
+\frac{1}{4}
+\left(\frac{\alpha_{\rm eff}}{\kappa}\right)
+\left(\frac{V''(\phi_0)}{\rho_m}\right),
+\]
+
+\[
+V''(\phi_0) = m_\phi^2 + 3\lambda\phi_0^2
++ \left.\frac{\partial^2 V_{\rm inst}}{\partial\phi^2}\right|_{\phi_0}.
+\]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SECTION C: Observational Constraints (Cassini)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{C. Observational Constraint}
+
+Cassini time-delay experiment gives:
+
+\[
+|\gamma - 1| \lesssim 2\times 10^{-5}.
+\]
+
+Thus, the combined DVF constraint is:
+
+\[
+\left|
+\xi_R \frac{\phi_0}{M^2}
++ \frac{\beta}{M}
+\right|
+\lesssim 3.16\times 10^{-3}.
+\]
+
+This ensures that the DVF scalar field does not mediate any detectable fifth force.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SECTION D: Next Steps for CLASS/Cobaya
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{D. Next Steps (For Cosmological Integration)}
+
+\begin{enumerate}
+    \item Linearize full field equations from 
+    \texttt{field\_equations.tex}.
+    \item Solve \(h_{00}\) to extract \(\Phi_{\rm eff}\).
+    \item Substitute into \(\gamma,\beta\) formulae.
+    \item Implement numerical scan to generate:
+    \begin{itemize}
+        \item constraint plot \(\gamma-1\) vs \((\xi_R,\beta,\phi_0)\)
+        \item allowed parameter contour
+    \end{itemize}
+    \item Export results into:
+    \texttt{07\_RESULTS/ppn\_scan.pdf}.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% END OF FILE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

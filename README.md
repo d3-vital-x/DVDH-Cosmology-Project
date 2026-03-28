@@ -2,6 +2,18 @@
 
 ### *The Collapse Geometry: Quantum Energy, Higgs Field, and Space-Time in a Singular Collapse Equation*
 
+---
+
+## 📢 Latest Breakthrough (March 2026)
+
+**Non-Gaussian Spike Detection (DVDH-V11)**  
+Evidence of structured oscillations beyond stochastic noise.
+
+📄 Full Report:  
+👉 [docs/breakthrough_non_gaussian_spikes.md](docs/breakthrough_non_gaussian_spikes.md)
+
+---
+
 ### **Tagline:**  
 **“Linking photonic overdrive, Higgs vacuum instability, and dark geometry formation through a singular collapse equation.”**
 
